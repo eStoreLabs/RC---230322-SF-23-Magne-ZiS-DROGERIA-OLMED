@@ -3,7 +3,7 @@
 
 ## LIVE SITE LINK 
 <!-- please enter link to site preview here -->
-[Live on Netlify](https://magne-zis.netlify.app/)
+[Live on Netlify](https://648abfe7b23b9c54e177b514--enchanting-pothos-485818.netlify.app/)
 
 ## PROJECT PREVIEW
 <!-- ![Design preview for the project](./link) -->
@@ -15,7 +15,7 @@
 
 ### DESTINATION (name of e-retailer or general/pure)
 <!-- please enter e-retailers name -->
-Generic, then Melissa
+Drogeria Olmed
 
 ### E-RETAILER’S SPECIFICATION (technical guidelines; html, css, graphics, photos, resolution)
 <!-- please enter any additional comments important for the project -->
