@@ -3,7 +3,7 @@
 
 ## LIVE SITE LINK 
 <!-- please enter link to site preview here -->
-[Live on Netlify](https://648abfe7b23b9c54e177b514--enchanting-pothos-485818.netlify.app/)
+[Live on Netlify](https://magne-zis-drogeria-olmed.netlify.app/)
 
 ## PROJECT PREVIEW
 <!-- ![Design preview for the project](./link) -->
