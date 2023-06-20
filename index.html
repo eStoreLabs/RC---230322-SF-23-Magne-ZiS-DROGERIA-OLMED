@@ -695,6 +695,30 @@
     width: auto;
   }
 }/*# sourceMappingURL=style.css.map */
+
+  #es-magne.es-magne #es-benefits-expand-toggle {
+    display: none;
+        }
+  #es-magne.es-magne
+    #es-benefits-expand-toggle:checked
+    ~ #es-benefits__wrapper {
+    visibility: visible;
+    height: auto;
+    opacity: 1;
+  }
+
+  #es-magne.es-magne
+    #es-benefits-expand-toggle:checked
+    ~ #es-benefits-expand-btn {
+    display: none;
+  }
+
+  #es-magne.es-magne .es-benefits__wrapper {
+    visibility: collapse;
+    height: 0px;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
     </style>
   </head>
 
@@ -880,12 +904,12 @@
           </div>
           <p class="es-benefits__label">Gwarancja jakości<sup>8</sup></p>
         </div>
-        <details>
-          <summary class="es-benefits__button">
-            Sprawdź skład
-            <img src="https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/img/chevron.png" alt="" class="es-benefits__chevron" />
-          </summary>
-          <div class="es-benefits__wrapper">
+          <input type="checkbox" id="es-benefits-expand-toggle" />
+          <label class="es-benefits__button" for="es-benefits-expand-toggle">
+              Sprawdź skład
+              <img src="https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/img/chevron.png" alt="" class="es-benefits__chevron" />
+          </label>
+          <div id="es-benefits__wrapper" class="es-benefits__wrapper">
             <table class="es-benefits__table">
               <thead>
                 <tr class="es-benefits__row">
@@ -925,7 +949,6 @@
               <sup>*</sup>Referencyjna wartość spożycia dla osób dorosłych
             </p>
           </div>
-        </details>
       </div>
 
       <div class="es-disclaimer">
