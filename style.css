@@ -1,21 +1,22 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("fonts/Gilroy-Regular.ttf");
+  src: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/fonts/Gilroy-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("fonts/Gilroy-SemiBold.ttf");
+  src: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/fonts/Gilroy-SemiBold.ttf");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("fonts/Gilroy-Bold.ttf");
+  src: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/fonts/Gilroy-Bold.ttf");
   font-weight: 800;
   font-style: normal;
 }
+
 @keyframes es-pulse {
   0% {
     border-radius: 50%;
@@ -115,7 +116,7 @@
 }
 #es-magne.es-magne .es-kv {
   padding: 20px 16px 16px 16px;
-  background: url(img/kv-dt.jpg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/img/kv-dt.jpg) no-repeat center;
   background-size: cover;
   height: 112cqi;
   display: flex;
@@ -228,7 +229,7 @@
 #es-magne.es-magne .es-features {
   padding: 16px;
   padding-bottom: 53px;
-  background: url(img/bg-features.jpg) no-repeat center left;
+  background: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/img/bg-features.jpg) no-repeat center left;
   background-size: cover;
 }
 #es-magne.es-magne .es-features__list {
@@ -318,7 +319,7 @@
 }
 @container (min-width: 768px) {
   #es-magne.es-magne .es-features {
-    background: url(img/bg-features.jpg) no-repeat center 0%;
+    background: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/img/bg-features.jpg) no-repeat center 0%;
   }
   #es-magne.es-magne .es-features__item {
     width: calc(25% - 15px);
@@ -341,7 +342,7 @@
   padding-bottom: 90px;
   height: 66cqi;
   min-height: 380px;
-  background: url(img/bg-info.png) no-repeat center center;
+  background: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/img/bg-info.png) no-repeat center center;
   background-size: cover;
   display: flex;
   flex-flow: column;
@@ -395,7 +396,7 @@
   margin-bottom: -7cqi;
   padding: 16px;
   min-height: 137cqi;
-  background: url(img/bg-hotspots.png) no-repeat center center;
+  background: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/img/bg-hotspots.png) no-repeat center center;
   background-size: cover;
 }
 #es-magne.es-magne .es-hotspots__content {
@@ -454,7 +455,7 @@
 #es-magne.es-magne .es-benefits {
   padding: 16px;
   padding-top: calc(10cqi + 16px);
-  background: url(img/bg-benefits.jpg) no-repeat center center;
+  background: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-ZiS-DROGERIA-OLMED/master/img/bg-benefits.jpg) no-repeat center center;
   background-size: cover;
   background-position: top;
   padding-bottom: calc(6cqi + 16px);
